@@ -1,0 +1,45 @@
+body {
+ /*
+  background-image: url(../assets/assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+
+/* Significados das palavras acima:
+Repeat - Para repetição de imagem
+Position - Para posição da imagem top center, centraliza
+Size = Tamanho, cover cobre todos os espaços em branco*/ 
+
+/* OUTRA FORMA DE REALIZAR A CONFIG DO BACKGROUND*/
+
+/*background: color img ; repeat; position/size*/
+background: url(../assets/assets/bg-mobile.jpg) no-repeat top center/cover
+}
+
+  body *   {
+
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  }
+
+  #container {
+    width: 360px;
+    height: 712px;
+    border: 1px solid red;
+    margin: auto
+  }
+  #profile {
+    text-align: center;
+  }
+
+  #profile img {
+    display: block;
+    width: 112px;
+    margin: auto;
+
+  #profile p {
+    font-weight: 500;
+    line-height: 24px;
+
+}  
+ }
